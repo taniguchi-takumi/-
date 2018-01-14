@@ -3,7 +3,7 @@
 課題１同様「eagle.jpg」を原画像とする．この画像をグレースケールに直す。
 
 
-RG=imread('eagle.jpg'); % 原画像の入力  
+ORG=imread('eagle.jpg'); % 原画像の入力  
 ORG = rgb2gray(ORG); colormap(gray); colorbar;  
 imagesc(ORG); axis image; % 画像の表示  
 
