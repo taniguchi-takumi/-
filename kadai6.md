@@ -41,3 +41,5 @@ imagesc(IMG); colormap(gray); colorbar; % 画像の表示
 
 
 図3 ディザ法による二値化画像
+
+このようにディザ法だと白が混じり色味に違いが出る。
