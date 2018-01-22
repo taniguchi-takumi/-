@@ -15,6 +15,7 @@ pause; % 一時停止
 
 ![原画像](https://github.com/taniguchi-takumi/gazousyorikougaku/blob/master/image/kadai6_1.png?raw=true)
 
+図1　原画像
 
 IMG = ORG>128; % 128による二値化  
 imagesc(IMG); colormap(gray); colorbar; % 画像の表示  
